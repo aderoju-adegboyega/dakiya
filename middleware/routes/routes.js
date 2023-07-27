@@ -7,7 +7,7 @@ router.use(require("../registrationApi/registrationroutes"));
 router.use(require("../NewsLetterApi/storeSubcribers"));
 router.use(require("../NewsLetterApi/sendEmail"));
 router.use(require("../adminApi/adminRoutes"));
-router.use(require("../NewsLetterApi/routes"));
+router.use(require("../NewsLetterApi/route"));
 router.use(require("../sendNews"));
 
 router.use(require("../feedbackApi/feedbackroutes"))
